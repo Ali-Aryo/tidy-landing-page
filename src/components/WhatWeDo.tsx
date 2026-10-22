@@ -10,7 +10,7 @@ export default function WhatWeDo() {
         <div className="flex flex-wrap gap-5">
           <FeatureCard
             label="More time"
-            title="Time will be saved on the work you repeat every day."
+            title="Get back the hours you spend on repeat tasks."
             panelClassName="bg-peach"
             illustration={<ClockIllustration />}
           />

@@ -3,6 +3,7 @@ import Hero from './components/Hero.tsx'
 import BusinessStrip from './components/BusinessStrip.tsx'
 import WhatWeDo from './components/WhatWeDo.tsx'
 import HowItWorks from './components/HowItWorks.tsx'
+import About from './components/About.tsx'
 import Contact from './components/Contact.tsx'
 import Footer from './components/Footer.tsx'
 
@@ -14,6 +15,7 @@ export default function App() {
       <BusinessStrip />
       <WhatWeDo />
       <HowItWorks />
+      <About />
       <Contact />
       <Footer />
     </div>

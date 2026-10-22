@@ -5,7 +5,7 @@ export default function CardArrow() {
     <a
       href="#contact"
       aria-label="Get in touch"
-      className="inline-flex size-9 flex-none items-center justify-center rounded-full bg-ink"
+      className="inline-flex size-9 flex-none items-center justify-center rounded-full bg-ink transition-colors hover:bg-accent"
     >
       <ArrowRightIcon />
     </a>

@@ -1,4 +1,4 @@
-const businesses = ['Salons', 'Clinics', 'Contractors', 'Restaurants', 'Bookkeepers', 'Gyms', 'Cleaners', 'And More...']
+const businesses = ['Salons', 'Clinics', 'Contractors', 'Restaurants', 'Bookkeepers', 'Gyms', 'Cleaners', 'And more.']
 
 export default function BusinessStrip() {
   return (

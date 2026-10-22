@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tidy — Simple automation for small businesses in Vancouver</title>
+    <meta
+      name="description"
+      content="Tidy helps small businesses in Vancouver automate the repetitive work that eats up their week. No tech skills needed."
+    />
+    <meta name="theme-color" content="#2B59FF" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tidy — Run your business. We handle the busywork." />
+    <meta
+      property="og:description"
+      content="Simple automation for small businesses in Vancouver, BC. Book a consultation and tell us what's taking up your time."
+    />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,9 +22,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&family=Caveat:wght@600&display=swap"
     />
-    <title>Tidy</title>
   </head>
   <body>
+    <!-- Netlify detects forms from static HTML at deploy time. The React contact form posts to this one,
+         so its name and field names must stay in sync with src/components/ContactForm.tsx. -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="business" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
